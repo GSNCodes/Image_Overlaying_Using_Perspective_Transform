@@ -6,14 +6,15 @@ In this project, we use opencv to warp an image and merge it with another image.
 
 <img src ='base_img.jpg' width = 300 height=250> <img src ='subject.jpg' width = 300>  
 
-*Selecting the corner points*
+**Selecting the corner points**   
+Every time you click on a point, the chosen point is highlighted using a red dot as shown below.  
 
 <img src ='points_selector.gif' width = 300 height=250>  
 
-## Output:
+## Output :
 <img src ='images/Final_Output.png' width = 300 height=250>   
 
-## Usage:
+## Usage :
 
 To run without debug enabled :-  
 `python main.py --base_img base_img.jpg --subject_img subject.jpg`
