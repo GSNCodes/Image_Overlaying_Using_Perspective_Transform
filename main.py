@@ -31,8 +31,8 @@ def sort_pts(points):
 
 if __name__=='__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--base_img',    type=str, help='Path to the base image')
-    parser.add_argument('--subject_img', type=str, help='Path to the subject image')
+    parser.add_argument('--base_img',    type=str, help='Path to the base image', required=True)
+    parser.add_argument('--subject_img', type=str, help='Path to the subject image', required=True)
     parser.add_argument('--debug', type=bool, help='Enable debug', default=False)
     args = vars(parser.parse_args())
 
